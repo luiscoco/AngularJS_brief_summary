@@ -66,6 +66,24 @@ npm install -g angular@1.8.2
 
 ## 3. Basic Example
 
+We first create the new application location folder and we open it in VSCode with this command
+
+```
+code .
+```
+
+Then we initialize/create the package.json file ruuning this command
+
+```
+npm init -y
+```
+
+![image](https://github.com/luiscoco/AngularJS_brief_summary/assets/32194879/b8d6e978-98e7-474e-9129-071e9f1a6e4e)
+
+This is the resulting project structure
+
+![image](https://github.com/luiscoco/AngularJS_brief_summary/assets/32194879/990ea88d-fedf-4069-b230-8f32a28a124f)
+
 Here is a simple example of an AngularJS application:
 
 **HTML (index.html)**
