@@ -56,6 +56,6 @@ Now we install the AngularJS in our laptop. Run this command
 npm install -g angular@1.8.2
 ```
 
-
+![image](https://github.com/luiscoco/AngularJS_brief_summary/assets/32194879/617ec53f-ce30-4b18-8c82-4cee87afc305)
 
 ## 3. 
