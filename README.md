@@ -93,6 +93,7 @@ This is the resulting project structure
 
 ### Folder and File structure
 
+```
 angularjs-app/
 ├── index.html
 ├── app/
@@ -101,6 +102,7 @@ angularjs-app/
 │   └── app.service.js
 └── node_modules/
     └── angular/
+```
     
 **index.html**: The main HTML file that loads the AngularJS application
 
