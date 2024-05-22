@@ -66,13 +66,20 @@ npm install -g angular@1.8.2
 
 ## 3. Basic Example
 
-We first create the new application location folder and we open it in VSCode with this command
+Initialize the project directory
+
+```
+mkdir angularjs-app
+cd angularjs-app
+```
+
+We open VSCode with this command
 
 ```
 code .
 ```
 
-Then we initialize/create the package.json file ruuning this command
+Then we initialize/create the **package.json** file ruuning this command
 
 ```
 npm init -y
