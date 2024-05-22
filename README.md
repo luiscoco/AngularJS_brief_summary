@@ -124,6 +124,8 @@ angularjs-app/
 
 **node_modules/**: This directory contains AngularJS and other node packages installed via npm
 
+![image](https://github.com/luiscoco/AngularJS_brief_summary/assets/32194879/4f85204b-a867-462f-9a1c-9563f4ea85a6)
+
 ### Basic application source code
 
 **index.html**
@@ -182,9 +184,9 @@ app.controller('MainController', function(MyService) {
 
 ### How to run the application
 
+![image](https://github.com/luiscoco/AngularJS_brief_summary/assets/32194879/ec9fcdaa-7cf4-40c8-950f-e8ac74a94e46)
 
-
-
+![image](https://github.com/luiscoco/AngularJS_brief_summary/assets/32194879/64b669fd-10b3-457a-923f-3b8fc0a54d95)
 
 ### Advantages of AngularJS
 
