@@ -70,7 +70,7 @@ Initialize the project directory
 
 ```
 mkdir angularjs-app
-cd angularjs-app
+cd sample2_basic
 ```
 
 We open VSCode with this command
@@ -91,9 +91,32 @@ This is the resulting project structure
 
 ![image](https://github.com/luiscoco/AngularJS_brief_summary/assets/32194879/990ea88d-fedf-4069-b230-8f32a28a124f)
 
-Here is a simple example of an AngularJS application:
+### Folder and File structure
 
-**HTML (index.html)**
+angularjs-app/
+├── index.html
+├── app/
+│   ├── app.module.js
+│   ├── app.controller.js
+│   └── app.service.js
+└── node_modules/
+    └── angular/
+    
+**index.html**: The main HTML file that loads the AngularJS application
+
+**app/**: This directory contains all the JavaScript files for your AngularJS application
+
+**app.module.js**: Defines the main AngularJS module
+
+**app.controller.js**: Defines a controller for the application
+
+**app.service.js**: (Optional) Defines a service for the application
+
+**node_modules/**: This directory contains AngularJS and other node packages installed via npm
+
+### Basic application source code
+
+**index.html**
 
 ```html
 <!DOCTYPE html>
@@ -101,8 +124,9 @@ Here is a simple example of an AngularJS application:
 <head>
   <meta charset="UTF-8">
   <title>AngularJS App</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
-  <script src="app.js"></script>
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="app/app.module.js"></script>
+  <script src="app/app.controller.js"></script>
 </head>
 <body>
   <div ng-controller="MainController as mainCtrl">
@@ -112,16 +136,45 @@ Here is a simple example of an AngularJS application:
 </html>
 ```
 
-**JavaScript (app.js)**
-```javascript
-// Define a module
-var app = angular.module('myApp', []);
+**app/app.module.js**
 
+```javascript
+// Define the main module
+var app = angular.module('myApp', []);
+```
+
+**app/app.controller.js**
+
+```javascript
 // Define a controller
 app.controller('MainController', function() {
   this.message = 'Hello, AngularJS!';
 });
 ```
+
+**app/app.service.js (Optional)**
+
+If you want to add a service, you can include the following:
+
+```javascript
+// Define a custom service
+app.service('MyService', function() {
+  this.greet = function(name) {
+    return 'Hello, ' + name + '!';
+  };
+});
+
+// Use the service in the controller
+app.controller('MainController', function(MyService) {
+  this.message = MyService.greet('AngularJS');
+});
+```
+
+### How to run the application
+
+
+
+
 
 ### Advantages of AngularJS
 
