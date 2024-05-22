@@ -1,5 +1,7 @@
 # AngularJS: a brief introduction
 
+https://angularjs.org/
+
 ## 1. Introduction
 
 **AngularJS** is a structural framework for dynamic web applications
@@ -9,6 +11,8 @@ It was developed by **Google** and first released in **2010**
 **AngularJS** allows developers to use HTML as a template language and extend HTML's syntax to express application **components** clearly and succinctly
 
 It simplifies the development and testing of **single-page applications (SPAs)** by providing a client-side **MVC (Model-View-Controller)** architecture, **data binding**, and **dependency injection**
+
+![image](https://github.com/luiscoco/AngularJS_brief_summary/assets/32194879/3f59e139-74ef-4832-b454-eef45be6fd87)
 
 ### Key Features of AngularJS
 
@@ -57,5 +61,7 @@ npm install -g angular@1.8.2
 ```
 
 ![image](https://github.com/luiscoco/AngularJS_brief_summary/assets/32194879/617ec53f-ce30-4b18-8c82-4cee87afc305)
+
+![image](https://github.com/luiscoco/AngularJS_brief_summary/assets/32194879/10e372fa-f4b2-4666-a398-687e833658e8)
 
 ## 3. 
