@@ -64,4 +64,62 @@ npm install -g angular@1.8.2
 
 ![image](https://github.com/luiscoco/AngularJS_brief_summary/assets/32194879/10e372fa-f4b2-4666-a398-687e833658e8)
 
-## 3. 
+## 3. Basic Example
+
+Here is a simple example of an AngularJS application:
+
+**HTML (index.html)**
+
+```html
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <title>AngularJS App</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <div ng-controller="MainController as mainCtrl">
+    <h1>{{ mainCtrl.message }}</h1>
+  </div>
+</body>
+</html>
+```
+
+**JavaScript (app.js)**
+```javascript
+// Define a module
+var app = angular.module('myApp', []);
+
+// Define a controller
+app.controller('MainController', function() {
+  this.message = 'Hello, AngularJS!';
+});
+```
+
+### Advantages of AngularJS
+
+**Declarative Code**: AngularJS lets you declare what you want to do without worrying about the underlying implementation
+
+**Modular Development**: Its modular architecture allows you to create reusable components
+
+**Community and Support**: As a Google-developed framework, AngularJS has strong community support and extensive documentation
+
+### Limitations
+
+Performance: AngularJS can be slower for applications with a large amount of data and complex bindings.
+
+Learning Curve: AngularJS has a steep learning curve for beginners due to its complexity and wide array of features.
+
+Legacy: AngularJS is now considered a legacy framework, with Angular (also known as Angular 2+) being the recommended version for new projects.
+
+### Conclusion
+
+AngularJS revolutionized web development by introducing a comprehensive framework for building dynamic **single-page applications**
+
+Although its support has ended, it laid the foundation for modern front-end frameworks and continues to be a valuable tool for learning the concepts
+
+of client-side MVC, data binding, and dependency injection
+
+For new projects, it is recommended to use the modern Angular framework, which offers improved performance, scalability, and support
