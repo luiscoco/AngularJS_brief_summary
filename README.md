@@ -91,6 +91,14 @@ This is the resulting project structure
 
 ![image](https://github.com/luiscoco/AngularJS_brief_summary/assets/32194879/990ea88d-fedf-4069-b230-8f32a28a124f)
 
+We install angular with this command
+
+```
+npm install angular
+```
+
+![image](https://github.com/luiscoco/AngularJS_brief_summary/assets/32194879/1d02cd54-2f54-4714-ac7c-2aa06aa8158a)
+
 ### Folder and File structure
 
 ```
